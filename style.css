@@ -1,0 +1,90 @@
+.main{
+    width: 1140px;
+    height: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Hind Siliguri';
+    src: url(./fonts/HindSiliguri-Regular.ttf);
+}
+h3{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #030D15;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+.menu_section{
+    display: flex;
+    align-items: center;
+}
+.menu_item menu_button{
+    display: flex;
+    align-items: center;
+}
+.logo_image img{
+    width: 10%;
+    height: 10%;
+}
+.menu_item_menu_button{
+    padding-top: 33px;
+}
+.content{
+    display: flex;
+}
+.content_text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+}
+.first_text h4{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+}
+.blue_text{
+    background: #247CC0;
+    opacity: 0.1;
+}
+.blue_text h1{  
+
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+    color: #247CC0;
+    
+    
+}
+
+.another_text h1{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+    color:#030D15;
+}
+.content_image{
+    flex: 1;
+}
