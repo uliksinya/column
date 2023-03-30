@@ -1,4 +1,8 @@
-
+/* .an_exiting_place_progect{
+    height: 5000px;
+    width: 1900px;
+    background:#E5E5E5;
+} */
 /* ----FIRST_PAGE---- */
 
 .main{
@@ -41,7 +45,8 @@ a{
     position: absolute;
     top: 50%;
     left: 100%;  
-    margin-left: 8px;  
+    margin-left: 8px;
+    margin-top: -4px;  
     
 }
 .menu_item_menu_button_contacts{
@@ -118,6 +123,7 @@ a{
     justify-content: space-between;;
     padding-top: 76px;
     padding-bottom: 76px;
+    box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
 }
 .logo_1{
     margin-left: 118px;
@@ -131,55 +137,159 @@ a{
 .second_page{
     display: flex;
     width: 1140px;
+    height: 518px;
     margin-left: auto;
     margin-right: auto; 
     background: #E5E5E5;
 }
 .second_page_left_side, .second_page_right_side{
     flex:1;
-    position: relative; 
+    display: flex;
+    flex-direction: row;
     height: 494.5px;
-}
-.second_page_title_text{
-    position:absolute;
-    top:20px;
-    left:292px;
-    top:163px;
+    
 }
 .image{
-    margin-top: 132px;
+    margin-top: 132px;    
     background: url(1504612825_IMG_863860.jpg);
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .second_page_image::after{
-    background-image: url("./img/ell.png");
-    content: "";  
+    content: url("./img/ell.png");  
     width: 44px;
     height: 44px;
     position: absolute;
     margin-top: 100px;     
     margin-left: -25px; 
 }
-.second_page_main_text{
-    position:absolute;
-    left:292px;
-    top:221px;
+.second_page_text{
+    margin-top: 163px;
+    margin-left: 30px;
 }
 .second_page_price{
-    display: flex; 
-    justify-content: flex-start;   
-    position: absolute;
-    top: 300px;
-    left: 292px;
+    display: flex;
+    flex-direction: row;
 }
-.second_page_price2{
-    margin-left: 5px;
+.second_page_price{
+    position: relative;
+    margin-top: 20px;
+}
+.second_page_line{
+    margin-top: 10px;
+    width: 13.42px;
+    height: 0px;
+    opacity: 0.5;
+    border: 0.5px solid #030D15;
+    transform: rotate(116.57deg);   
 }
 .second_page_price::after{
     content:"";
-    background-image: url(./img/star.png);
-    width:52px;
-    height: 12px;
+    background-image:url('../column/img/star.png');  
+    height: 50px;
+    width: 52px;  
     position: absolute;
     top:40px;
+    display: block;
+    background-repeat: repeat-x;
 }
+.second_page_price::after::after{
+    content: url("./img/star2.jpg");
+    position: absolute;
+    background-image:url(./img/star2.jpg);
+    top:40px;
+}
+
+/* -----THIRD PAGE----- */
+
+.third_page{
+    width: 1140px;
+    height: 333.08px;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto; 
+    background: #E5E5E5;
+}
+.third_page_left_side, .third_page_right_side{
+    flex:1;
+    width: 555px;
+    height: 296px;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+.third_page_left_side,.third_page_right_side{
+    margin-right: 15px;
+    position: relative;
+}
+.third_page_text{
+    margin-top: 75px;
+    margin-left: 35px;
+}
+.third_page_left_side_image{
+    position: absolute;
+    left:234px;
+    top:-15px;    
+}
+.third_page_right_side_image{
+    position: absolute;    
+    top:36px;
+    right:25px;
+}
+
+/* -----FOURTH PAGE----- */
+
+.fourth_page{
+    display:flex;
+    position: relative;
+    width: 1600px;
+    height: 918px;   
+    margin-left: auto;
+    margin-right: auto;    
+} 
+.blue_background{
+    position: absolute;
+    background: #F4F9FC;    
+    width: 1600px;
+    height: 632px;
+    top:286px;
+}
+.fourth_page_left_side_image, .fourth_page_right_side_text{
+    flex:1;   
+}
+.background_image{
+    background-image: url('./img/egg.png');  
+    position: relative;
+    width: 610px;
+    height: 698px;
+    margin-left: 135px;
+    margin-top: 218px;
+}
+.woman_image{
+    position: absolute;
+    top: -172px;
+    right: 0px;      
+} 
+.fourth_page_right_side_text{
+    margin-left: 131px;
+    margin-right: 230px;
+}
+ul{
+    list-style-type:none;
+    position: absolute; /*зачем */
+    margin-top: 40px;        
+} 
+li{
+   margin-bottom: 20px;
+   display: flex;
+   align-items:center;
+}
+li::before{
+    content: url('./img/tick.png');
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left:13px;
+    padding-left: 0px;
+}  

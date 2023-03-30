@@ -97,24 +97,25 @@ h3{
     color: #030D15;
     opacity: 0.5;
 }
-.second_page_title_text h2{
-    font-family: 'Hind Siliguri Bold';
+.second_page_text h2{
+    font-family: 'Hind Siliguri';
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
     line-height: 40px;
-    text-align: center;    
     color: #030D15;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
-.second_page_main_text h3{
+.second_page_text h3{
     font-family: 'Hind Siliguri';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     color: #030D15;
-    opacity: 0.6;
-    text-transform:none;
+    text-transform: none;
 }
 .second_page_price1 h3{
     font-family: 'Hind Siliguri';
@@ -122,17 +123,90 @@ h3{
     font-weight: 500;
     font-size: 16px;
     line-height: 27px;
-    text-align: center;
     color: #030D15;
 }
 .second_page_price2 h3{
     font-family: 'Hind Siliguri';
     font-style: normal;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 27px;
     text-align: center;
+    text-decoration-line: line-through;
     color: #030D15;
-
     opacity: 0.5;
 }
+.third_page_text h4{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+    opacity: 0.6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.third_page_text h2{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    color: #F4F9FC;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.third_page_text h5{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F4F9FC;
+    margin-top: 7px;   
+
+}
+
+.fourth_page_right_side_text h5{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: #C72535;
+    opacity: 0.6;
+    margin-top: 160px;
+}
+.fourth_page_right_side_text p{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 71px;
+    color: #030D15;
+    margin: 0px;
+}
+.fourth_page_right_side_text h3{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030D15;
+    opacity: 0.6;
+    margin-top: 115px;
+    text-transform: none;
+}
+li{
+    font-family:'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: #030D15;
+} 
