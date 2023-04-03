@@ -193,12 +193,12 @@ a{
     display: block;
     background-repeat: repeat-x;
 }
-.second_page_price::after::after{
+/* .second_page_price::after::after{
     content: url("./img/star2.jpg");
     position: absolute;
     background-image:url(./img/star2.jpg);
     top:40px;
-}
+} */
 
 /* -----THIRD PAGE----- */
 
@@ -293,3 +293,119 @@ li::before{
     left:13px;
     padding-left: 0px;
 }  
+
+/* ------FOOTER------ */
+
+.last_page{    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.blue_up{
+    width: 1600px;
+    height: 310px;
+    background: #F4F9FC;
+    margin-left: auto;
+    margin-right: auto;    
+    display: flex;
+    flex-direction: row;
+    align-items:center;    
+}
+.contact_text{    
+    margin-left: 230px;    
+}
+.contact_text,.contact_form{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+#email{
+    margin-left: 338px;
+    width: 335px;
+    height: 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);    
+}
+input::placeholder{
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #030D15;
+    opacity: 0.4;
+    text-indent: 26px;
+}
+.contact_form{
+    position: relative;
+}
+.contact_form button{
+    width: 122px;
+    height: 50px;
+    background: #247CC0;
+    border: transparent;
+    margin: 0px;
+    position: absolute;
+}
+.black_down_footer{
+    display: flex;
+    flex-direction: row;
+}
+.black_down_footer{
+    width: 1600px;
+    height: 396px;
+    background: #030D15;
+}
+.inf{
+    display: flex;
+    flex-direction: row;
+}
+.footer_logo{
+    margin-top: 80px;
+    margin-left: 230px;
+}
+.information, .footer_menu, .useful_links{
+    width: 165px;
+    margin-left: 30px;
+}
+.about_the_store{
+    margin-left: 30px;
+}
+.social_media{
+    margin-top: 16px;
+}
+img:not(#facebook, #footer_logo){
+    margin-left: 25px;
+}
+.language{
+    position: relative;
+}
+.language::before{
+    content:url(./img/word.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 58px; 
+}
+select {
+    margin-left: 20px;
+    margin-top: 53px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+}  
+select::-ms-expand {
+    display: none; /* Скрыть стрелку в Internet Explorer */
+}
+select option{
+    background-color: black; /* Убираем фон у элемента списка */
+}
+.language::after{
+    content:url("./img/arrow_footer.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;   
+    top:53px; 
+    left:80px;
+}
+
