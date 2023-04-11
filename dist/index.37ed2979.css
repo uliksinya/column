@@ -1,0 +1,376 @@
+@font-face {
+  font-family: Hind Siliguri;
+  src: url("HindSiliguri-Regular.35aa168d.ttf");
+}
+
+@font-face {
+  font-family: Hind Siliguri Bold;
+  src: url("HindSiliguri-Bold.93a282da.ttf");
+}
+
+@font-face {
+  font-family: Hind Siliguri Light;
+  src: url("HindSiliguri-Light.4c4262b5.ttf");
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #030d15;
+  margin: 0;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.first_text h4 {
+  letter-spacing: .145em;
+  text-transform: uppercase;
+  color: #c72535;
+  opacity: .6;
+  margin-top: 75px;
+  margin-bottom: 0;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.blue_text h1 {
+  color: #247cc0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 10px;
+  font-family: Hind Siliguri Bold;
+  font-size: 61px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 73px;
+}
+
+.another_text h1 {
+  color: #030d15;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Hind Siliguri Light;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 73px;
+}
+
+.third_text h3 {
+  color: #030d15;
+  opacity: .6;
+  text-transform: none;
+  margin-top: 29px;
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.button h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  margin-top: 18px;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.price_1 h3 {
+  text-align: center;
+  color: #030d15;
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.price_2 h3 {
+  text-align: center;
+  color: #030d15;
+  opacity: .5;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  text-decoration-line: line-through;
+}
+
+.second_page_text h2 {
+  color: #030d15;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Hind Siliguri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.second_page_text h3 {
+  color: #030d15;
+  text-transform: none;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.second_page_price1 h3 {
+  color: #030d15;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.second_page_price2 h3 {
+  text-align: center;
+  color: #030d15;
+  opacity: .5;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  text-decoration-line: line-through;
+}
+
+.third_page_text h4 {
+  text-transform: uppercase;
+  color: #f4f9fc;
+  opacity: .6;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.third_page_text h2 {
+  color: #f4f9fc;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-family: Hind Siliguri;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.third_page_text h5 {
+  text-transform: uppercase;
+  color: #f4f9fc;
+  margin-top: 7px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.about_products h5 {
+  letter-spacing: .145em;
+  text-transform: uppercase;
+  color: #c72535;
+  opacity: .6;
+  margin-top: 160px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.about_products h4 {
+  color: #030d15;
+  margin: 0;
+  font-family: Hind Siliguri;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 71px;
+}
+
+.fourth_page_right_side_text h5 {
+  letter-spacing: .145em;
+  text-transform: uppercase;
+  color: #c72535;
+  opacity: .6;
+  margin-top: 160px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.fourth_page_right_side_text h4 {
+  color: #030d15;
+  margin: 0;
+  font-family: Hind Siliguri;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 71px;
+}
+
+.fourth_page_right_side_text h3 {
+  color: #030d15;
+  opacity: .6;
+  text-transform: none;
+  margin-top: 115px;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+li {
+  color: #030d15;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.contact_text h3 {
+  letter-spacing: .145em;
+  text-transform: uppercase;
+  color: #c72535;
+  opacity: .6;
+  margin: 0;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.contact_text h2 {
+  color: #030d15;
+  margin: 0;
+  font-family: Hind Siliguri;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.contact_text h5 {
+  color: #030d15;
+  opacity: .6;
+  margin-top: 8px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.contact_form h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.footer_logo h3 {
+  color: #fff;
+  opacity: .6;
+  margin-top: 22px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.inf h2 {
+  color: #fff;
+  margin-top: 75px;
+  margin-bottom: 11px;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.inf h3 {
+  color: #fff;
+  opacity: .6;
+  margin-top: 15px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.about_the_store h2 {
+  color: #fff;
+  margin-top: 75px;
+  margin-bottom: 11px;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.about_the_store h3 {
+  color: #fff;
+  opacity: .6;
+  text-transform: none;
+  margin-top: 26px;
+  margin-bottom: 14px;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.about_the_store a {
+  color: #fff;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+select {
+  color: #fff;
+  background-color: #0000;
+  border: none;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+/*# sourceMappingURL=index.37ed2979.css.map */

@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./fonts.css">
+
+    <link rel="stylesheet" href="scss/fonts.scss">
+    <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet" href="scss/media.scss"> 
 </head>
 <body>
     <div class="an_exiting_place_progect">
         <div class="first_page">
             <div class="main">
-                <div class="menu">
+                <div class="menu">                
 
                     <div class="menu_section">
                         <div class="logo_image">
-                            <img src="./img/logo.PNG">
+                            
                         </div>
                     </div>
-
-                    <div class="menu_section">
+                    
+                    <div class="menu_section" id="main_menu">
                         <div class="menu_item_menu_button">
                             <a href="#"><h3>HOME</h3></a>
                             
@@ -52,8 +54,8 @@
                             <div class="korzina_image"><img src="./img/shop.png"alt="Корзина"></div>
                             <div class="person_image"><img src="./img/person.png" alt="Пользователь"></div>
                         </div>
-
                     </div>
+            
                 </div>
 
                 <div class="content">
@@ -79,7 +81,7 @@
                             
                     </div>
                     <div class="content_image">
-                        <img src="./img/collumn.png" alt="Колонка">
+                        <img src="./img/collumn.png" alt="Колонка" id="column">
                     </div>
                 </div>
                 
@@ -126,7 +128,7 @@
             </div>
         </div>
 
-        <section>
+        
             <div class="third_page">
                 <div class="third_page_left_side">
                     <div class="third_page_text">
@@ -149,22 +151,28 @@
                     </div>
                 </div>
             </div>
-        </section>
         
-        <section>
+        
+        
             <div class="fourth_page">                
                 <div class="blue_background"></div>
                 <div class="fourth_page_left_side_image">
                     <div class="background_image">
                         <div class="woman_image">
-                            <img src="./img/Womann.png">
+                            <img src="./img/Womann.png" id="woman">
                         </div>
                     </div>
-                </div>
+                    <div class="about_products">
+                        <h5>about Products</h5>
+                        <h4>About Product</h4>
+                    </div>
+
+                </div>                
 
                 <div class="fourth_page_right_side_text">
                     <h5>about Products</h5>
-                    <p>About For Products</p>
+                    <h4>About Product</h4>
+                    
                     <h3>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly have suffered believable. <br>
                         <br>
                         If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</h3>
@@ -179,9 +187,9 @@
                 </div>
             
             </div>
-        </section>
-
-        <section>
+        
+            
+    
             <div class="last_page">
                 <div class="blue_up">
                     <div class="contact_text">
@@ -249,7 +257,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
     </div>
 </body>

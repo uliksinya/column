@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+  margin-block: 0;
+  font-size: 50px;
+}
+
+@media (max-width: 1024dppx), (orientation: portrait) {
+  .logo_image {
+    margin-left: 30px;
+  }
+
+  .menu {
+    padding-bottom: 0;
+    display: block;
+  }
+
+  .menu_section {
+    margin-left: 15px;
+  }
+
+  #main_menu {
+    margin-left: 50px;
+  }
+
+  #menu {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .menu_item_menu_option {
+    margin-left: 30px;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .content_text {
+    margin-left: 50px;
+  }
+
+  .logo_1 {
+    margin-left: 0;
+    margin-right: -30px;
+  }
+
+  .logo_2 {
+    margin-right: -30px;
+  }
+
+  .second_page {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .second_page_left_side, .second_page_right_side {
+    height: auto;
+    flex: none;
+    margin-left: 70px;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  .second_page_price:after {
+    top: 60px;
+  }
+
+  .second_page_right_side {
+    padding-bottom: 132px;
+  }
+
+  .second_page_text h2 {
+    font-size: 50px;
+  }
+
+  .second_page_text h3 {
+    margin-top: 20px;
+    font-size: 35px;
+    line-height: 1;
+  }
+
+  .fourth_page {
+    height: 1400px;
+    flex-direction: column;
+  }
+
+  .fourth_page_left_side_image {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .about_products {
+    margin-top: 150px;
+    display: block;
+  }
+
+  .blue_background {
+    height: 1200px;
+  }
+
+  .fourth_page_right_side_text h3 {
+    width: 900px;
+    margin-top: 0;
+  }
+
+  .fourth_page_right_side_text h5 {
+    margin-top: 50px;
+  }
+
+  .contact_text {
+    margin-left: 145px;
+  }
+
+  #email {
+    margin-left: 80px;
+  }
+
+  .useful_links, .information, .footer_menu {
+    margin-left: 7px;
+  }
+
+  .about_the_store, img:not(#facebook, #footer_logo) {
+    margin-left: 5px;
+  }
+
+  .footer_logo {
+    width: 130px;
+    margin-left: 100px;
+  }
+
+  .black_down_footer {
+    width: 1200px;
+    margin-left: 500px;
+  }
+
+  .about_the_store {
+    width: 140px;
+  }
+
+  .social_media {
+    margin-top: 5px;
+  }
+
+  .fourth_page_right_side_text, .contact_text {
+    margin-left: 50px;
+  }
+
+  .third_page {
+    height: auto;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    display: block;
+  }
+
+  .third_page_right_side {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  .menu_section {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 170px;
+  }
+
+  div#main_menu.menu_section {
+    margin-left: 200px;
+  }
+
+  .menu_section h3 {
+    font-size: 35px;
+  }
+
+  .menu_item_menu_button h3 {
+    margin-top: 40px;
+  }
+
+  .menu_item_menu_button_contacts h3 {
+    margin-top: 30px;
+  }
+
+  .menu_item_menu_button {
+    align-items: baseline;
+    display: flex;
+  }
+
+  .another_text h1, .third_text h3 {
+    width: 600px;
+  }
+
+  .content_image {
+    margin-left: 5px;
+  }
+
+  .logotypes {
+    width: 700px;
+    flex-direction: column;
+  }
+
+  .logo_1, .logo_2, .logo_3, .logo_4 {
+    margin-top: 50px;
+    margin-left: 250px;
+  }
+
+  .second_page_image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .second_page_left_side, .second_page_right_side {
+    margin-left: 5px;
+    position: relative;
+  }
+
+  .second_page_image:after {
+    top: 20px;
+    left: 300px;
+  }
+
+  .second_page_text {
+    width: 350px;
+    margin-left: 290px;
+  }
+
+  .second_page_text h3 {
+    font-size: 25px;
+  }
+
+  .third_page {
+    padding-left: 60px;
+  }
+
+  .background_image {
+    margin-left: 45px;
+  }
+
+  .about_products {
+    display: none;
+  }
+
+  .fourth_page_right_side_text h3 {
+    width: 500px;
+    font-size: 20px;
+  }
+
+  .fourth_page {
+    height: 1600px;
+  }
+
+  .fourth_page_right_side_text li {
+    font-size: 20px;
+  }
+
+  .blue_background {
+    height: 1500px;
+  }
+
+  ul {
+    width: 500px;
+    margin-left: -10px;
+  }
+
+  .blue_up {
+    width: 800px;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .contact_form {
+    margin-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #email {
+    margin-left: -200px;
+  }
+
+  .contact_text {
+    margin-left: -150px;
+  }
+
+  .black_down_footer {
+    width: 600px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+  }
+
+  .footer_logo {
+    width: 100%;
+  }
+
+  .about_the_store {
+    width: 100%;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 320px) and (orientation: landscape) {
+  .menu {
+    flex-direction: column;
+    padding-bottom: 0;
+    display: flex;
+  }
+
+  #main_menu {
+    margin-left: 20px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .logo_1 {
+    margin-left: 0;
+  }
+
+  .logo_2, .logo_3 {
+    margin-left: -100px;
+  }
+
+  .logo_4 {
+    margin-left: -100px;
+    margin-right: 300px;
+  }
+
+  .second_page {
+    height: auto;
+    flex-direction: column;
+    padding-left: 100px;
+  }
+
+  .third_page {
+    height: auto;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 100px;
+  }
+
+  .third_page_right_side {
+    margin-top: 50px;
+  }
+
+  .fourth_page {
+    height: 1400px;
+    flex-direction: column;
+  }
+
+  .blue_background {
+    height: 1200px;
+  }
+}
+
+/*# sourceMappingURL=index.3a4b6f68.css.map */
